@@ -47,6 +47,11 @@ platform :ios do
   lane :screenshots do
     screenshots
   end
+  
+  lane :appbuild do
+    snapshot
+    build_app
+  end
 
   desc "Localize"
   lane :localize do
