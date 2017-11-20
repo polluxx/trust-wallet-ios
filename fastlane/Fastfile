@@ -50,7 +50,7 @@ platform :ios do
   
   lane :appbuild do
     snapshot
-    gym(configuration: "Release")
+    gym(scheme: "Trust")
   end
   
   lane :beta do
